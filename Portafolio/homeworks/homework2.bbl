@@ -1,0 +1,21 @@
+\begin{thebibliography}{2}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{ BBVA API Market.}((2020))]{latexproject6}
+{ BBVA API Market.}
+\newblock {Requisitos imprescindibles para implementar Progressive Web Apps},
+  (2020).
+\newblock URL
+  \url{https://www.bbvaapimarket.com/es/mundo-api/requisitos-imprescindibles-para-implementar-progressive-web-apps/}.
+
+\bibitem[{Altamira Online.}((2021, August 12))]{latexproject5}
+{Altamira Online.}
+\newblock {Agencia SEO de Marketing Online Altamiraweb}, (2021, August 12).
+\newblock URL
+  \url{https://altamiraweb.net/mejores-herramientas-para-crear-web-apps-progresiva/}.
+
+\end{thebibliography}

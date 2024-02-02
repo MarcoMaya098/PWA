@@ -1,0 +1,30 @@
+porque construir una PWA 
+
+porque es mas barato, ligera, rapidaz por el manejo de los servidores, actualizadas, acceso mas facil del navegadoor que una apps sotre
+ se estan resumiendo a dispositivos moviles porque hay mayor demanda del uso por los clientes
+
+es una extension de tu app, Mobile First
+
+
+cliente o empresa presenta online para ver tu sitio /webapp 
+
+
+como funciona
+
+
+Conceptos basicos de una pwa
+
+
+
+WebApp{
+Push server,
+indexedDB,
+Manifest,
+Service Worker,
+}
+
+tiene que tener service https
+
+service worker con proxy
+
+tipo whitepaper
