@@ -1,0 +1,42 @@
+\begin{thebibliography}{5}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Brans(2023)]{techtarget}
+P.~Brans.
+\newblock cache server, 2023.
+\newblock URL \url{https://www.techtarget.com/whatis/definition/cache-server}.
+
+\bibitem[Cyberstream(2023)]{cyberstream}
+Cyberstream.
+\newblock Explorando la navegación offline: Accede a la web sin conexión a
+  internet, December 5 2023.
+\newblock URL
+  \url{https://www.byronvargas.com/web/como-navegar-por-la-web-sin-internet/}.
+
+\bibitem[{DIGITAL55}(2020)]{digital55}
+{DIGITAL55}.
+\newblock {Qué es PWA: características, ventajas y desventajas}, June 5 2020.
+\newblock URL
+  \url{https://digital55.com/blog/que-es-pwa-ventajas-desventajas/}.
+
+\bibitem[{Learn about the benefits, challenges, and strategies of caching data
+  in a network to improve your network performance and
+  scalability}(2023)]{linkedin}
+{Learn about the benefits, challenges, and strategies of caching data in a
+  network to improve your network performance and scalability}.
+\newblock What are the most effective strategies of caching data in a network?,
+  November 6 2023.
+\newblock URL
+  \url{https://www.linkedin.com/advice/0/what-most-effective-strategies-caching-data-network-bzhqe#:~:text=Caching%20in%20a%20network%20can,server%20load%2C%20and%20network%20traffic}.
+
+\bibitem[Santillán(2015)]{fili}
+Fili Santillán.
+\newblock Estado online y offline con javascript, October 28 2015.
+\newblock URL
+  \url{https://filisantillan.com/blog/online-y-offline-con-javascript/}.
+
+\end{thebibliography}

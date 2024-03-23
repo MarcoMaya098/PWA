@@ -1,0 +1,102 @@
+\documentclass{article}
+\usepackage{enumitem}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{natbib}  % For bibliography styling
+\usepackage{hyperref} %
+
+\begin{document}
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    
+    \vspace{2cm}
+    
+    \textbf{Name: Moreno Maya Marco Antonio} {\hspace{5cm}} 
+    \vspace{1cm}
+    \textbf{Group: 10A} {\hspace{5cm}} \\
+    
+    \vfill
+    
+    \vspace{0.5cm}
+    Cache with Netwrok and Navigation Offline
+
+    
+    \vspace{1cm}
+    
+    
+    \vspace{1cm}
+    
+    \today % Fecha de hoy
+    
+\end{titlepage}
+
+
+"Cache with network" is a concept that refers to a caching strategy involving the combination of a local cache with the ability to access a network to retrieve data not available in the local cache. This technique is used in distributed systems and applications requiring efficient access to data that may reside in both local and remote storage over a network.
+
+Here are some key points about "cache with network":
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Performance improvement}: By maintaining a local cache of frequently accessed data, performance can be enhanced by reducing access time to that data. However, when requested data is not available in the local cache, the network can be used to retrieve it.
+    
+    \item \textbf{Latency reduction}: Storing data locally in the cache can significantly reduce access latency compared to retrieving data over the network. This is especially crucial in applications requiring fast response times.
+    
+    \item \textbf{Reduced network load}: Utilizing a local cache can reduce network load by decreasing the frequency with which data needs to be retrieved from remote sources. This can be beneficial in networks with limited bandwidth or associated costs with network traffic.
+    
+    \item \textbf{Cache coherence management}: It's important to implement mechanisms to ensure cache coherence when using a combination of local cache and network access. This involves ensuring that data in the local cache is updated and consistent with data at the remote source.
+    
+    \item \textbf{Cache storage strategies}: Different caching strategies can be implemented to determine which data is retained in the local cache and when and how cached data is updated. These strategies may vary depending on the specific requirements of the application and network characteristics.
+\end{enumerate}
+
+\section*{Summary of Caching in a Network}
+
+Caching involves storing data or computation results in a temporary storage location known as a cache, facilitating faster access compared to the original source. It is pivotal in enhancing network performance and scalability by minimizing data transfers and computations. Effective caching entails considerations such as data consistency, cache size, placement, eviction policies, and prefetching. Examples of caching in networks encompass web caching, database caching, and API caching. Evaluating caching effectiveness involves monitoring and analyzing key metrics like cache hit ratio, cache miss ratio, cache miss penalty, network latency, and network bandwidth.
+"cache with network" is a strategy that combines local caching with network access to provide better performance and lower latency in accessing distributed data. This can be beneficial in various applications, from distributed systems to web applications requiring efficient access to remote data.
+
+\newpage
+
+Offline navigation refers to the ability to access and use applications or web services without an active internet connection. This functionality is especially useful in situations where internet connectivity is limited or nonexistent. Here are some key characteristics of offline navigation:
+
+\begin{enumerate}[label=\arabic*.]
+    \item \textbf{Local data storage}: Applications supporting offline navigation typically store data locally on the user's device. This includes data such as text, images, multimedia files, and any other information necessary for the application's operation.
+    
+    \item \textbf{Automatic synchronization}: To enable a seamless user experience, offline-capable applications often have the ability to automatically synchronize local data with online servers as soon as the internet connection is restored. This ensures that the most recent data is available both on the local device and the remote server.
+    
+    \item \textbf{Access to basic functionalities}: Although offline navigation restricts access to dynamic content and online services, applications usually offer access to basic functionalities even when offline. This may include the ability to view locally stored data, perform local searches, or access features that do not depend on an active internet connection.
+    
+    \item \textbf{Efficient resource usage}: Offline-capable applications typically optimize the use of device resources such as storage and processing power to ensure adequate performance even on devices with limited resources.
+    
+    \item \textbf{Management of changes and conflicts}: Since data may change both on the local device and the remote server while the application is offline, it's important for offline-capable applications to manage changes and resolve conflicts appropriately when synchronizing data.
+    
+    \item \textbf{Availability of downloadable content}: Some offline navigation applications offer the option to download specific content for offline use. This may include documents, maps, multimedia files, or other types of content that users may need while offline.
+    
+    \item \textbf{Data security}: Offline-capable applications must implement appropriate security measures to protect locally stored data on the user's device, especially if it involves sensitive or personal information.
+\end{enumerate}
+
+\section*{Summary of Offline Browsing}
+
+Offline browsing enables access to websites and online content without an active internet connection. This functionality is provided by offline browsers, which are applications designed to facilitate web exploration without requiring an online connection.
+
+Below, we'll outline the functioning and main characteristics of an offline browser:
+
+\begin{enumerate}
+    \item \textbf{Local Storage:} An offline browser stores a copy of visited websites in the device's memory. This enables access to these sites even when there's no internet connection available. Local storage may include HTML files, CSS, JavaScript, images, and other resources necessary for loading and displaying a webpage correctly.
+    
+    \item \textbf{Content Synchronization:} Some offline browsers offer content synchronization upon reconnecting to the internet. Any changes made on visited websites while offline will be automatically updated once the connection is restored. This feature is particularly useful for email applications, social networks, and other platforms requiring constant connectivity to stay updated.
+    
+    \item \textbf{Automatic Offline Mode:} Offline browsers typically detect when there's no internet connection available and switch to offline mode automatically. In this mode, local storage is utilized to load and display web pages instead of fetching them online. Some browsers may also display informative messages indicating that the user is browsing offline.
+    
+    \item \textbf{Quick Access to Previously Visited Pages:} Offline browsers often remember previously visited web pages and provide quick access to them offline. This is especially useful when needing to access specific information on a website without having to search for it online again.
+    
+    \item \textbf{Ability to Save Pages for Offline Use:} Some offline browsers allow saving complete web pages for later offline use. This is useful when knowing there will be no internet connection in the near future and wanting access to certain important content during that time.
+\end{enumerate}
+
+In summary, offline browsers offer an offline web browsing experience by enabling access to previously visited websites and storing content locally. This functionality is especially useful in situations where there's no internet access or when needing to access specific content without having to search for it online again.
+
+\pagebreak
+
+\citep{digital55, cyberstream, linkedin, fili, techtarget}.
+\bibliographystyle{plainnat} % Choose a bibliography style compatible with natbib
+\bibliography{references}   
+
+\end{document}

@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2022/dev/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: homework1.aux
+The style file: plainnat.bst
+Database file #1: references.bib
+Warning--entry type for "digital55" isn't style-file defined
+--line 1 of file references.bib
+Warning--entry type for "cyberstream" isn't style-file defined
+--line 9 of file references.bib
+Warning--entry type for "linkedin" isn't style-file defined
+--line 18 of file references.bib
+Warning--entry type for "fili" isn't style-file defined
+--line 27 of file references.bib
+Warning--entry type for "techtarget" isn't style-file defined
+--line 35 of file references.bib
+You've used 5 entries,
+            2773 wiz_defined-function locations,
+            622 strings with 5827 characters,
+and the built_in function-call counts, 1526 in all, are:
+= -- 130
+> -- 50
+< -- 5
++ -- 20
+- -- 15
+* -- 85
+:= -- 235
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 20
+chr.to.int$ -- 5
+cite$ -- 10
+duplicate$ -- 75
+empty$ -- 161
+format.name$ -- 20
+if$ -- 321
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 0
+newline$ -- 33
+num.names$ -- 20
+pop$ -- 60
+preamble$ -- 1
+purify$ -- 15
+quote$ -- 0
+skip$ -- 67
+stack$ -- 0
+substring$ -- 10
+swap$ -- 9
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 55
+warning$ -- 0
+while$ -- 15
+width$ -- 0
+write$ -- 67
+(There were 5 warnings)
